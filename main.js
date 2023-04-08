@@ -28,7 +28,7 @@ then the output should be [
 
 //👉 Write the function your CodeWarriors will start with below here:
 
-// function feedSancho(foods) {
+// export function feedSancho(foods) {
 //     // 👉 Write your code here!
 // }
 
