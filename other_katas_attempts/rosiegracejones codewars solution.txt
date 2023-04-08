@@ -1,0 +1,13 @@
+Putting this here to show I've attempted another kata - don't read it unless you want a potential spoiler for this kata!
+
+
+export function eggCount(breakfastOrder) {
+  let eggCount=0;
+  for (let i=0; i<breakfastOrder.length; i++) {
+    if (breakfastOrder[i] === "scrambled eggs") {eggCount += 2;}
+    else if (breakfastOrder[i] === "omelette") {eggCount += 3;}
+    else if (breakfastOrder[i] === "fried egg") {eggCount ++;}
+  }
+  if (eggCount>25) {return "Oh no, we've run out of eggs! Please order something else.";}
+  else {return eggCount;}
+}
